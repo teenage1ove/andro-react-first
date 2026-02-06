@@ -4,11 +4,11 @@ import ProductSection from "./components/ProductSection/ProductSection"
 
 function App() {
   return (
-    <>
+    <div className="container">
       <HeroSection/>
       <AboutSection/>  
       <ProductSection/>    
-    </>
+    </div>
   )
 }
 

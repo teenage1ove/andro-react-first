@@ -1,12 +1,10 @@
-import prod2 from '../../assets/prod2.jpg'
-
-function ProductCard() {
+function ProductCard(props) {
   return (
     <div>
-        <div>NEW</div>
-        <img src={prod2} alt="" />
-        <p>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
-        <a href="">Подробнее →</a>
+        {props.isNew && (<div>isNew</div>)}
+        <img src={props.image} alt={props.title} />
+        <p>{props.title} — {props.square} м² — {props.year}</p>
+        <a href={props.link}>Подробнее →</a>
     </div>
   )
 }
