@@ -5,3 +5,10 @@ body {
   width: 1150px;
   margin: 0 auto;
 }
+h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+p {
+  margin-bottom: 15px;
+}

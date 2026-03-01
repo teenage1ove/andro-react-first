@@ -1,7 +1,6 @@
 import './Heading.css'
 
 function Heading(props) {
-  console.log(props);
   
   if(props.level === 'h1') {
     return (
